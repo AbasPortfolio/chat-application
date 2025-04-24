@@ -20,7 +20,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "https://react-chat-ui.onrender.com",
+    origin: "https://chat-application-fdja.vercel.app",
     credentials: true,
   })
 );
